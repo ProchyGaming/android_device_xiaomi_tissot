@@ -1,13 +1,13 @@
 [
   {
-    "repository": "MASTERGUY/android_device_xiaomi_msm8953-common",
+    "repository": "ProchyGaming/device_xiaomi_msm8953-common",
     "target_path": "device/xiaomi/msm8953-common",
-    "branch": "cr-eleven",
+    "branch": "eleven",
     "remote": "github"
   }
 
   {
-    "repository": "MASTERGUY/android_kernel_xiaomi_msm8953",
+    "repository": "ProchyGaming/kernel_xiaomi_tissot",
     "target_path": "kernel/xiaomi/msm8953",
     "branch": "eleven",
     "remote": "github" 
@@ -18,5 +18,12 @@
     "target_path": "vendor/xiaomi",
     "branch": "eleven",
     "remote": "github"
+  }
+
+  {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-18.0",
+    "remote": "lineage"
   }
 ]
