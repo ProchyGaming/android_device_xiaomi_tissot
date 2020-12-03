@@ -26,6 +26,9 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 WITH_GAPPS := true
 EVO_BUILD_TYPE := OFFICIAL
 
+#APEX
+TARGET_FLATTEN_APEX := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
 PRODUCT_NAME := evolution_tissot
